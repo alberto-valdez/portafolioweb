@@ -1,0 +1,39 @@
+{
+    "navbar":{
+        "item1": "Inicio",
+        "item2": "About",
+        "item3": "Portafolio",
+        "item4": "Contacto"
+    },
+    "thumbnail": {
+        "desc": "Desarrollador Frontend",
+        "buttom-desc": "Descargar CV"
+    },
+    
+    "about": {
+        "about": "Acerca de mi",
+        "desc1": "Mi nombre es Alberto Valdez, pero puedes decirme Albert. Desde que tengo memoria siempre he estado frente a una computadora haciendo diferentes cosas, como producir música, editar imagines y videos o simplemente navegando en la red viendo qué cosas interesantes encuentro. Desde hace unos años comencé a interesarme por cómo funcionan estas cosas que uso todos los días, las paginas web, aplicaciones y servicios. Así es como me decidí a estudiar la carrera de Tecnologías de la información.",
+        "desc2": "Me gustan los diseños simples, procurar darle al usuario lo necesario para tener una buena experiencia tratando de no saturarlos con demasiada información y elementos en la interaz, pero también intentando no caer en lo básico.",
+        "desc3": "Soy una persona simple, de pocas palabras y amable en casi todo momento. Me gusta la asertividad y la sinceridad ya que considero que son los pilares para tener una relación profesional saludable y armónica"
+    },
+    "portfolio": {
+        "port1": "Calcula tus calorias, monitorea tu alimentación.",
+        "port2": "Conviete cualquier numero decimal a binario.",
+        "port3": "Administra tus tareas con el sistema pomodoro."
+    },
+    "portfolioText":{
+        "title": "Portafolio",
+        "desc1": "Estos son algunos de los proyectos que he realizado en el ultimo año.",
+        "desc2": "Sientete libre de ir a su web o a el repositorio en Github y revisar el codigo."
+    },
+
+    "contact":{
+        "title": "Contáctame",
+        "desc": "Podemos conocernos y trabajar en algo juntos!",
+        "input1": "Nombre",
+        "input2": "Mensaje",
+        "placeholder1": "Tu nombre",
+        "placeholder2":"Escribe tu mensaje aqui...",
+        "buttom":"Enviar"
+    }
+}

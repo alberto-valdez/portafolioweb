@@ -1,0 +1,40 @@
+{
+    "navbar":{
+        "item1": "Home",
+        "item2": "About",
+        "item3": "Portfolio",
+        "item4": "Contact"
+    },
+
+    "thumbnail": {
+        "desc": "Frontend Developer",
+        "buttom-desc": "Download CV"
+    },
+
+    "about": {
+        "about": "About",
+        "desc1": "My name is Alberto Valdez, but you can call me Albert. Since I can remember I have always been in front of a computer doing different things, such as producing music, editing images and videos or simply surfing the net seeing what interesting things I find. A few years ago I began to be interested in how these things that I use every day work, the web pages, applications and services. This is how I decided to study the Information Technology career.",
+        "desc2": "I like simple designs, trying to give the user what is necessary to have a good experience trying not to saturate them with too much information and elements in the interface, but also trying not to fall into the basics.",
+        "desc3": "I am a simple person, of few words and kind at almost all times. I like assertiveness and sincerity since I consider that they are the pillars to have a healthy and harmonious professional relationship."
+    },
+    "portfolio": {
+        "port1": "Calculate your calories, monitor your diet.",
+        "port2": "Convert any decimal number to binary.",
+        "port3": "Manage your tasks with the pomodoro system."
+    },
+    "portfolioText":{
+        "title": "Portfolio",
+        "desc1": "These are some of the projects that I have done in the last year.",
+        "desc2": "Feel free to go to their website or the repository on Github and review the code."
+    },
+    "contact":{
+        "title": "Contact me",
+        "desc": "",
+        "input1": "Name",
+        "input2": "Message",
+        "placeholder1": "Your name",
+        "placeholder2":"Write here...",
+        "buttom":"Send"
+    }
+    
+}

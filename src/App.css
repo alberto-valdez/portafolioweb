@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-in ;
+}
+
+
+.animate-card-fadeOut {
+  animation: fadeOut 0.7s ease-in ;
+}
+
+.animate-card-fadeIn {
+  animation: fadeIn 0.7s ease-in ;
+}
+
+
+.animate-fadeOut {
+  animation: fadeOut 1s ease-in ;
+}
