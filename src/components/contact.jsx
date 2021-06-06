@@ -1,4 +1,4 @@
-import  {FaFacebook, FaGithub, FaTwitter, FaInstagram, FaEnvelope} from "react-icons/fa";
+import  {FaLinkedinIn, FaGithub, FaTwitter, FaInstagram, FaEnvelope} from "react-icons/fa";
 import useChangeLenguage from "../hooks/useChangeLanguage";
 import emailjs from 'emailjs-com';
 import { useState } from "react";
@@ -23,7 +23,7 @@ export const Contact = () => {
       }
     return (
 
-        <div className='flex w-full min-h-screen justify-center items-center'>
+        <div className='flex w-full min-h-screen justify-center items-center pt-10 lg:pt-0'>
 
                 <div className='flex flex-col  md:flex-row md:space-x-6 space-y-6 md:space-y-0  w-full max-w-4xl p-8 mt-12 md:mt-0 animate-fadeIn'>
                 <div className='flex flex-col   justify-around space-y-8 md:mr-20 '>
@@ -37,10 +37,10 @@ export const Contact = () => {
                         </div>
                     </div>
                     <div className='flex space-x-4 text-2xl'>
-                        <a href="https:www.facebook.com"  target="_blank"><span className='mr-1 mt-2'><FaFacebook/></span></a>
-                        <a href="https:www.twitter.com"  target="_blank"><span className='mr-1 mt-2'><FaTwitter/></span></a>
-                        <a href="https:www.instagram.com"  target="_blank"><span className='mr-1 mt-2'><FaInstagram/></span></a>
+                        <a href="https://twitter.com/albertovaldezd4"  target="_blank"><span className='mr-1 mt-2'><FaTwitter/></span></a>
+                        <a href="https://www.instagram.com/albertovaldez3/"  target="_blank"><span className='mr-1 mt-2'><FaInstagram/></span></a>
                         <a href="https:www.github.com/alberto-valdez"  target="_blank"><span className='mr-1 mt-2'><FaGithub/></span></a>
+                        <a href="https://www.linkedin.com/in/alberto-valdez-dev13/"  target="_blank"><span className='mr-1 mt-2'><FaLinkedinIn/></span></a>
                     </div>
                 </div>
 

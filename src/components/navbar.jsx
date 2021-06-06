@@ -22,7 +22,7 @@ export const Navbar = () => {
         setTheme(colortheme)
        }
     return(
-        <nav className='flex flex-col mt-3 justify-between items-center h-16 fixed inset-x-0 px-8 dark:text-white sm:flex-row sm:mt-0' >
+        <nav className='flex bg-white dark:bg-black pt-3 h-auto flex-col  justify-between items-center h-16 fixed inset-x-0 px-8 dark:text-white sm:flex-row sm:mt-0  transition  duration-500' >
 
             <div className="pr-8 md:block">
             <NavLink activeStyle={{
@@ -47,7 +47,7 @@ export const Navbar = () => {
       <Switch
         checked={enabled}
         onChange={setEnabled} >
-            <span className={`block bg-white rounded-full shadow p-2 h-8 w-14  transition  duration-1000  ${theme !== 'dark' ? 'flex justify-end' : 'flex justify-start'}`}>
+            <span className={`block bg-white rounded-full shadow p-2 h-8 w-14 mb-2 lg:mb-0 transition  duration-1000  ${theme !== 'dark' ? 'flex justify-end' : 'flex justify-start'}`}>
                 {theme !== 'dark'  ? (<span className='text-black block h-full text-yellow-400   transition  duration-1000'><FaSun/></span>):(<span className='text-black block h-full text-blue-300 transition  duration-1000'><FaMoon/></span>)}
             </span>
            
@@ -58,7 +58,7 @@ export const Navbar = () => {
 
             
             <div className="p-4">
-                   <select className='bg-transparent dark:text-white  outline-none focus:outline-none' onChange={()=>setIdiom(idioma)} defaultValue={idiom} name="" id="">
+                   <select className='bg-transparent dark:text-white mb-2 lg:mb-0 outline-none focus:outline-none' onChange={()=>setIdiom(idioma)} defaultValue={idiom} name="" id="">
                        <option value='es' selected>ES</option>
                        <option value="en">EN</option>
                    </select>

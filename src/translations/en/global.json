@@ -19,8 +19,10 @@
     },
     "portfolio": {
         "port1": "Calculate your calories, monitor your diet.",
-        "port2": "Convert any decimal number to binary.",
-        "port3": "Manage your tasks with the pomodoro system."
+        "port2": "Contact web page",
+        "port3": "Manage your tasks with the pomodoro system.",
+        "port4": "I developed this landing page for Todos Flotan Producciones.",
+        "port5": "CRUD developed for Todos Flotan Producciones"
     },
     "portfolioText":{
         "title": "Portfolio",
@@ -29,7 +31,7 @@
     },
     "contact":{
         "title": "Contact me",
-        "desc": "",
+        "desc": "We can meet and work on something together!",
         "input1": "Name",
         "input2": "Message",
         "placeholder1": "Your name",

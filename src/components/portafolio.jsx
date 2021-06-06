@@ -44,23 +44,28 @@ export default function Portafolio(){
                  <Card
                  name = {project.name}
                  desc = {project.desc}
-                 tec = {project.tec}
+                 tec =  {project.tec}
+                 link = {project.link}
+                 git =  {project.git}
                  />
           
         )
     })
     return(
     
-    <div className='flex justify-center h-screen items-center'>
+    <div className='flex justify-center h-screen pt-20 md:items-center'>
         <div className='mt-14   md:mt-0'>
         
         <div className="flex flex-row">
         <button onClick={()=>makeSwitch('left')} type='button' className='self-center   h-12 rounded-full text-3xl m-3 p-2 flex items-center justify-center outline-none focus:outline-none   dark:text-white transition transform hover:scale-125 '><FaChevronLeft/></button>
         <span className={` m-0 p-0 ${fade}`}>
         <Card
+            image = {projectData[count].image}
              name = {projectData[count].name}
              desc = {projectData[count].desc}
              tec = {projectData[count].tec}
+             link = {projectData[count].link}
+             git = {projectData[count].git}
              />
         </span>
     

@@ -1,7 +1,7 @@
 {
     "navbar":{
         "item1": "Inicio",
-        "item2": "About",
+        "item2": "Acerca de mi",
         "item3": "Portafolio",
         "item4": "Contacto"
     },
@@ -18,8 +18,10 @@
     },
     "portfolio": {
         "port1": "Calcula tus calorias, monitorea tu alimentación.",
-        "port2": "Conviete cualquier numero decimal a binario.",
-        "port3": "Administra tus tareas con el sistema pomodoro."
+        "port2": "Página web de contacto.",
+        "port3": "Administra tus tareas con el sistema pomodoro.",
+        "port4": "Desarrollé esta landing page para Todos Flotan Producciones.",
+        "port5": "CRUD desarrollada para Todos Flotan Producciones"
     },
     "portfolioText":{
         "title": "Portafolio",

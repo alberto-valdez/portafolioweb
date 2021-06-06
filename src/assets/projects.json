@@ -1,5 +1,8 @@
 [
-    {"name":"Doppio","desc":"portfolio.port1","tec":"React JS","link":"www.doppio.albertovaldez.com"},
-    {"name":"Binaryapp","desc":"portfolio.port2","tec":"React JS","link":"www.binary.albertovaldez.com"},
-    {"name":"Pomodoro","desc":"portfolio.port3","tec":"React JS","link":"https://alberto-valdez.github.io/pomodoro/?"}
+    {"name":"Doppio","desc":"portfolio.port1","tec":"React JS","link":"https://doppio.albertovaldez.com/", "git":"https://github.com/alberto-valdez/fitday", "image":"https://64.media.tumblr.com/4e52da9b912f7d9736598a91a37fc20e/872ca3cb528aba20-f8/s2048x3072/ea314a6c343f2c92bff0a21cf4585cb269da77b8.png"},
+    {"name":"Alberto Valdez","desc":"portfolio.port2","tec":"React JS","link":"https://www.albertovaldez.com", "git":"https://github.com/alberto-valdez/albertovaldez", "image":"https://64.media.tumblr.com/3b72cec7eb7b56926b03bbdf84064e07/872ca3cb528aba20-69/s2048x3072/3389419d019f8787c75820e4eecf0f6838dc42e0.png"},
+    {"name":"Pomodoro","desc":"portfolio.port3","tec":"React JS","link":"https://alberto-valdez.github.io/pomodoro/?", "git":"https://github.com/alberto-valdez/pomodoro","image":"https://64.media.tumblr.com/4059734f386fe6b5b422bf1b276e2660/872ca3cb528aba20-d6/s1280x1920/e52f10e2a032cce9b55110375e8440515c222724.png"},
+    {"name":"TFP Landing Page","desc":"portfolio.port4","tec":"React JS","link":"https://todosflotanpro-e6492.web.app/", "git":"https://github.com/alberto-valdez/todosflotan-landingpage","image":"https://64.media.tumblr.com/65759f8d71c4a77526d20175aba05b04/70fdf1dcb0d0cd0b-22/s2048x3072/49cf42340002ac1da7459feabe8ce9cab4846a57.png"},
+    {"name":"TFP CRUD","desc":"portfolio.port5","tec":"React JS","link":"https://crudtfp.web.app/", "git":"https://github.com/alberto-valdez/crud-tfp","image":"https://64.media.tumblr.com/0d463cd6dcab81e6b43b9b18128b9431/70fdf1dcb0d0cd0b-21/s2048x3072/0339aa7c8f0142c8a7b2d30acadfe11464dae9be.png"}
+
 ]
